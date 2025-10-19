@@ -25,8 +25,8 @@ Let's get your development environment ready:
 ### 1.1 Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd algol-ai-workshop
+git clone https://github.com/Algol-Labs/algol-labs-ai-workshop
+cd algol-labs-ai-workshop
 ```
 
 ### 1.2 Set Up Python Environment
@@ -34,8 +34,7 @@ cd algol-ai-workshop
 Run the automated setup script:
 
 ```bash
-cd setup
-python setup.py
+python setup/setup.py
 ```
 
 This will:

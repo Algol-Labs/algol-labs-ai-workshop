@@ -194,6 +194,7 @@ logs/
 .env.development.local
 .env.test.local
 .env.production.local
+.env.*
 
 # Node.js (if any frontend components are added later)
 node_modules/
