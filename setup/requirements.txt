@@ -1,0 +1,32 @@
+# Algol AI Workshop - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core AI/LLM libraries
+openai>=1.0.0          # OpenAI API client
+requests>=2.31.0       # HTTP requests for API calls
+
+# Data processing and analysis
+pandas>=2.0.0          # Data manipulation
+numpy>=1.24.0          # Numerical computing
+
+# Document processing for RAG
+PyPDF2>=3.0.0          # PDF text extraction
+python-docx>=1.1.0     # Word document processing
+ebooklib>=0.18         # EPUB processing
+
+# Text processing and embeddings
+scikit-learn>=1.3.0    # Machine learning utilities
+sentence-transformers>=2.2.0  # Local embeddings for RAG
+
+# Web framework (inspired by your FastAPI experience)
+fastapi>=0.100.0       # For building simple APIs
+uvicorn>=0.20.0       # ASGI server
+
+# Development and debugging
+python-dotenv>=1.0.0   # Environment variables
+rich>=13.0.0          # Beautiful terminal output
+
+# Optional: For advanced RAG features
+# Uncomment if you want to explore more advanced RAG
+# llama-index>=0.8.0    # RAG framework (advanced)
+# qdrant-client>=1.0.0  # Vector database (advanced)
